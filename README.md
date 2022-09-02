@@ -1,16 +1,22 @@
-# test
+LeetCode challenge
 
-A new Flutter project.
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-## Getting Started
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-This project is a starting point for a Flutter application.
+You can return the answer in any order.
 
-A few resources to get you started if this is your first Flutter project:
+ 
+ Example 1:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Example 2:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+Example 3:
+
+Input: nums = [3,3], target = 6
+Output: [0,1]
